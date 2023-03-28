@@ -1,9 +1,7 @@
 import React,{ Component } from 'react'
 
 export default class DisplayInput extends Component{
-    constructor(props){
-        super(props);
-    }
+    
     
     render(){
         const {text} = this.props;

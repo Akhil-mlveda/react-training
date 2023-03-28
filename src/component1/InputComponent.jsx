@@ -21,7 +21,7 @@ export default class InputComponent extends Component {
     console.log(this.state.inputText);
     return (
       <>
-        <label for="inputText"> Enter your text </label>
+        <label htmlFor="inputText"> Enter your text </label>
         <input
           type="text"
           id="inputText"
@@ -31,19 +31,8 @@ export default class InputComponent extends Component {
           onChange = {this.onInputChange}
         />
 
-        <DisplayInput text = {this.state.inputText} />
+        <DisplayInput text={this.state.inputText} />
       </>
     );
   }
 }
-// import React, { Component } from 'react'
-
-// export class InputComponent extends Component {
-//   render() {
-//     return (
-//       <div>InputComponent</div>
-//     )
-//   }
-// }
-
-// export default InputComponent
