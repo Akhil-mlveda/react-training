@@ -81,11 +81,7 @@ input[type=checkbox] {
   background-color: white;
   height: 27px;
 }
-.errorClass{
-  font-size: smaller;
-  color: red;
-  width: 25%;
-}
+
 input[type=submit] {
   width: 100%;
   background-color: orange;
@@ -107,4 +103,10 @@ input[type=submit]:focus {
   /* width: 100%; */
   background-color: #f2db05;
   color: black;
+}
+
+.errorClass{
+  display: flex-box;
+  width: 20%;
+  
 }

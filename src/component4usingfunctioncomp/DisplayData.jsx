@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import "./displayData.css";
 
-export default class DisplayData extends Component {
-  render() {
-    const { employees } = this.props;
-    // console.log( formData);
-    return (
-      <>
+function DisplayData({ employees }) {
+  return (
+    <>
         <div className="displayBox">
           <h2>Submitted Data:</h2>
           <ul>
@@ -33,6 +30,7 @@ export default class DisplayData extends Component {
           </ul>
         </div>
       </>
-    );
-  }
+  )
 }
+
+export default DisplayData
